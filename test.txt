@@ -1,0 +1,2 @@
+printf("%s: Ein String: %s Eine Zahl: %d\n", argv[0], "ZACKBUMM", stderr(errno));
+printf("Wert = %f\n", sin(x));
