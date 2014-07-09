@@ -31,7 +31,7 @@ sub convert {
 	chomp($cline);
 
 	# strip 'printf("");', if there
-	if ( $cline =~ /printf\((.*)\);/ ) {
+	if ( $cline =~ /printf\s*\((.*)\);/ ) {
 		$tmpline = $1;
 	}
 	else {
